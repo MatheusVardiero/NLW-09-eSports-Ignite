@@ -5,6 +5,10 @@ export default {
     './index.html',
   ],
   theme: {
+    fontFamily: {
+      sans: ['Inter, sans-serif'],
+      micro: ["'Micro 5', sans-serif"]
+    },
     extend: {
       backgroundImage: {
         galaxy: "url('/background-galaxy.png')",
